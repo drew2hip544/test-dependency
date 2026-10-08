@@ -1,4 +1,4 @@
-package main.java.com.ekoparty.demo.payment;
+package com.ekoparty.demo.payment;
 
 import javax.annotation.processing.AbstractProcessor;
 import javax.annotation.processing.RoundEnvironment;
