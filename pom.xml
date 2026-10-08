@@ -15,23 +15,10 @@
     </properties>
 
     <distributionManagement>
-        <snapshotRepository>
+        <repository>
             <id>github</id>
             <name>GitHub Packages - test-dependency</name>
             <url>https://maven.pkg.github.com/drew2hip544/test-dependency</url>
-        </snapshotRepository>
+        </repository>
     </distributionManagement>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.13.0</version>
-                <configuration>
-                    <proc>none</proc>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
 </project>
