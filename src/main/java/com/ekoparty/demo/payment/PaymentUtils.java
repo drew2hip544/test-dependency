@@ -6,6 +6,6 @@ public final class PaymentUtils {
     }
 
     public static String getProvider() {
-        return "PAYMENT_PROVIDER=MUTATED";
+        return "PAYMENT_PROVIDER=LEGIT";
     }
 }

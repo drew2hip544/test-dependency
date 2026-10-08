@@ -6,7 +6,7 @@
 
     <groupId>com.ekoparty.demo</groupId>
     <artifactId>payment-utils</artifactId>
-    <version>1.0.1</version>
+    <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <properties>
@@ -15,10 +15,10 @@
     </properties>
 
     <distributionManagement>
-        <repository>
+        <snapshotRepository>
             <id>github</id>
             <name>GitHub Packages - test-dependency</name>
             <url>https://maven.pkg.github.com/drew2hip544/test-dependency</url>
-        </repository>
+        </snapshotRepository>
     </distributionManagement>
 </project>
