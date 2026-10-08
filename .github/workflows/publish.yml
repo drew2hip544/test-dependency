@@ -1,12 +1,12 @@
 name: Publish Maven package
 
 on:
-  push:
-    branches: [master]
-    paths:
-      - pom.xml
-      - src/**
-      - .github/workflows/publish.yml
+#   push:
+#     branches: [master]
+#     paths:
+#       - pom.xml
+#       - src/**
+#       - .github/workflows/publish.yml
   workflow_dispatch:
 
 permissions:
